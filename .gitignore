@@ -1,0 +1,8 @@
+cdp_api_key.json
+config.py
+twilio_2FA_recovery_code.txt
+.env
+.DS_Store
+logs/
+venv/
+__pycache__/

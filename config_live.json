@@ -1,0 +1,8 @@
+{
+  "take_profit_pct": 0.03,
+  "stop_loss_pct": 0.06,
+  "trigger_drop_pct": 0.025,
+  "trade_size_usd": 200,
+  "max_bags": 0,
+  "dca_drop_pct": 0.02
+}

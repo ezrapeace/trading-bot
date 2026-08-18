@@ -1,8 +1,38 @@
-cdp_api_key.json
-config.py
-twilio_2FA_recovery_code.txt
+# API keys, Secrets & Configs
 .env
-.DS_Store
-logs/
+.env.*
+config.py
+*.key
+*.pem
+*.json
+!package.json
+!tsconfig.json
+cdp_api_key.json
+twilio_2FA_recovery_code.txt
+
+# Python & Virtual Environments
 venv/
+.venv/
+env/
 __pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs, Databases & Runtime Data
+logs/
+*.log
+*.sqlite
+*.sqlite3
+*.db
+
+# macOS & Editor Files
+.DS_Store
+.AppleDouble
+.LSOverride
+.vscode/
+.idea/
+.cursor/
